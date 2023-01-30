@@ -26,7 +26,7 @@ Install `pip` and then install system-wide `virtualenv` PIP package.
     sudo apt-get install python-pip
     sudo pip install virtualenv
 
-Create a virtual environment for our current `alumni-portal` project in a
+Create a virtual environment for our current `university-alumni-portal-project` project in a
 folder named `.venv`, and "activate" it, so that all our subsequent PIP
 packages are installed in this virtual environment only, and not globally. Note
 that you don't require `sudo` access any more to install PIP packages in this
