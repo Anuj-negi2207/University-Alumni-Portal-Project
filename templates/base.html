@@ -23,6 +23,7 @@
     <link href="{% static 'base/lib/owlcarousel/assets/owl.carousel.min.css'%}" rel="stylesheet">
     <link href="{% static 'base/css/style.css'%}" rel="stylesheet">
     <link href="{% static 'base/header/css/style.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'base/events/style.css' %}" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
@@ -43,7 +44,7 @@
                         <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Current Events</a>
+                        <a class="nav-link" href="{% url 'show-events' %}">Current Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'show-college' %}">Colleges</a>
@@ -52,7 +53,7 @@
                         <a class="nav-link" href="{% url 'show-alumni' %}">Alumni</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Professors</a>
+                        <a class="nav-link" href="https://vitbhopal.ac.in/faculty/">Professors</a>
                     </li>
                     {% if request.user.is_authenticated %}
                     <li class="nav-item">

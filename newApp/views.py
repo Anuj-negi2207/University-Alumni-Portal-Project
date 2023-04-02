@@ -31,6 +31,10 @@ def AlumniListView(request):
         page_obj = paginator.page(paginator.num_pages)
     return render(request, template_name, {'filter': alfilter, 'page_obj': page_obj})
 
+def EventsListView(request):
+    template_name = 'showevents.html'
+    return render(request, template_name)
+
 
 def CollegeListView(request):
     total = User.objects.filter(is_college=True).all()

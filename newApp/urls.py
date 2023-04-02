@@ -25,6 +25,11 @@ urlpatterns = [
         name="show-alumni"
         ),
     path(
+        'showevents/',
+        views.EventsListView,
+        name="show-events"
+        ),
+    path(
         'showcolleges/',
         views.CollegeListView,
         name='show-college'
