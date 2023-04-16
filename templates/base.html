@@ -31,7 +31,8 @@
 
 <body>
     <header class="header-section" style="margin-bottom: 76px">
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary site-navbar fixed-top">
+       <!-- style = "background" -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary site-navbar fixed-top" >
             <a class="navbar-brand site-logo" href="{% url 'home' %}">
                 <h2><span class="text-light">University Alumni Portal</span></h2>
             </a>
@@ -88,6 +89,10 @@
             </div>
         </nav>
     </header>
+
+    
+
+
     {% block content %}
     {% endblock %}
     <footer id="footer">
@@ -97,6 +102,7 @@
             </div>
         </div>
     </footer>
+    <script src="{%static 'base/app.js' %}" type="text/javascript"></script>
     <script src="{%static 'base/header/js/jquery-3.2.1.min.js' %}"></script>
     <script src="{%static 'base/header/js/bootstrap.min.js' %}"></script>
     <script src="{%static 'base/header/js/owl.carousel.min.js' %}"></script>
