@@ -68,7 +68,7 @@
                         <a class="nav-link" href="{% url 'show-alumni' %}">Alumni</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://vitbhopal.ac.in/faculty/">Professors</a>
+                        <a class="nav-link" href="https://vitbhopal.ac.in/faculty/">Faculty</a>
                     </li>
                     {% if request.user.is_authenticated %}
                     <li class="nav-item">
@@ -103,6 +103,8 @@
             </div>
         </nav>
     </header>
+    <!-- End Header -->
+
 
     <!-- EVENTS starts -->
     <div class="mu-hero-overlay">
@@ -114,7 +116,7 @@
                     <!-- Start center Logo -->
                     <div class="mu-logo-area">
                         <!-- text based logo -->
-                        <a class="mu-logo" href="#">Eventoz</a>
+                        <a class="mu-logo" href="#">Events @VIT-B</a>
                         <!-- image based logo -->
                         <!-- <a class="mu-logo" href="#"><img src="base/events/assets/images/logo.jpg" alt="logo img"></a> -->
                     </div>
@@ -122,10 +124,9 @@
 
                     <div class="mu-hero-featured-content">
 
-                        <h1>HELLO! WELCOME TO EVENTOZ</h1>
-                        <h2>The Biggest International IT Professional Conference</h2>
-                        <p class="mu-event-date-line">19 - 21 February, 2018. New York, USA</p>
-
+                        <h1>HELLO! WELCOME TO EVENTS PAGE</h1>
+                        <h2>Find all the Upcoming Events of VIT Bhopal</h2>
+                        
                         <div class="mu-event-counter-area">
                             <div id="mu-event-counter">
                                 
@@ -139,9 +140,7 @@
             </div>
         </div>
     </div>
-    </header>
-    <!-- End Header -->
-
+    
     <!-- Start main content -->
     <main role="main">
     <!-- Start About -->
@@ -159,7 +158,39 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="mu-about-right">
-                                    <h2>About The Conference</h2>
+                                    <h2>About The Event 1</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aliquam distinctio magni enim error commodi suscipit nobis alias nulla, itaque ex, vitae repellat amet neque est voluptatem iure maxime eius!</p>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus in accusamus qui sequi nisi, sint magni, ipsam, porro nesciunt id veritatis quaerat ipsum consequatur laborum, provident veniam quibusdam placeat quam?</p>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perspiciatis magni omnis excepturi, cumque reiciendis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Feature Content -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <section id="mu-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mu-about-area">
+                        <!-- Start Feature Content -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mu-about-left">
+                                    <img class="" src="{%static 'base/events/assets/images/about.jpg'%}" alt="Men Speaker">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mu-about-right">
+                                    <h2>About The Event 2</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aliquam distinctio magni enim error commodi suscipit nobis alias nulla, itaque ex, vitae repellat amet neque est voluptatem iure maxime eius!</p>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus in accusamus qui sequi nisi, sint magni, ipsam, porro nesciunt id veritatis quaerat ipsum consequatur laborum, provident veniam quibusdam placeat quam?</p>
@@ -196,7 +227,7 @@
         <div class="mu-video-content">
             <div class="mu-video-iframe-area">
                 <a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-                <iframe width="854" height="480" src="https://www.youtube.com/embed/n9AVEl9764s" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2LlzKt6fiVk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <!-- End Video content -->
@@ -359,156 +390,6 @@
     </section>
     <!-- End Schedule -->
 
-    <!-- Start Speakers -->
-    <section id="mu-speakers">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mu-speakers-area">
-
-                        <div class="mu-title-area">
-                            <h2 class="mu-title">Our Speakers</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-                        </div>
-
-                        <!-- Start Speakers Content -->
-                        <div class="mu-speakers-content">
-
-                            <div class="mu-speakers-slider">
-
-                                <!-- Start single speaker -->
-                                <div class="mu-single-speakers">
-                                    <img src="{%static 'base/events/assets/images/speaker-1.jpg'%}" alt="speaker img">
-                                    <div class="mu-single-speakers-info">
-                                        <h3>Karl Groves</h3>
-                                        <p>Digital Artist</p>
-                                        <ul class="mu-single-speakers-social">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End single speaker -->
-
-                                <!-- Start single speaker -->
-                                <div class="mu-single-speakers">
-                                    <img src="{%static 'base/events/assets/images/speaker-2.jpg'%}" alt="speaker img">
-                                    <div class="mu-single-speakers-info">
-                                        <h3>Sarah Dransner</h3>
-                                        <p>Business Consultant</p>
-                                        <ul class="mu-single-speakers-social">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End single speaker -->
-
-
-                                <!-- Start single speaker -->
-                                <div class="mu-single-speakers">
-                                    <img src="{%static 'base/events/assets/images/speaker-3.jpg'%}" alt="speaker img">
-                                    <div class="mu-single-speakers-info">
-                                        <h3>Ned Stark</h3>
-                                        <p>UI/UX Specialist</p>
-                                        <ul class="mu-single-speakers-social">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End single speaker -->
-
-
-                                <!-- Start single speaker -->
-                                <div class="mu-single-speakers">
-                                    <img src="{%static 'base/events/assets/images/speaker-4.jpg'%}" alt="speaker img">
-                                    <div class="mu-single-speakers-info">
-                                        <h3>Michaela Lehr </h3>
-                                        <p>Digital Marketer</p>
-                                        <ul class="mu-single-speakers-social">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End single speaker -->
-
-                                <!-- Start single speaker -->
-                                <div class="mu-single-speakers">
-                                    <img src="{%static 'base/events/assets/images/speaker-1.jpg'%}" alt="speaker img">
-                                    <div class="mu-single-speakers-info">
-                                        <h3>Karl Groves</h3>
-                                        <p>Digital Artist</p>
-                                        <ul class="mu-single-speakers-social">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End single speaker -->
-
-                                <!-- Start single speaker -->
-                                <div class="mu-single-speakers">
-                                    <img src="{%static 'base/events/assets/images/speaker-2.jpg'%}" alt="speaker img">
-                                    <div class="mu-single-speakers-info">
-                                        <h3>Sarah Dransner</h3>
-                                        <p>Business Consultant</p>
-                                        <ul class="mu-single-speakers-social">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End single speaker -->
-
-
-                                <!-- Start single speaker -->
-                                <div class="mu-single-speakers">
-                                    <img src="{%static 'base/events/assets/images/speaker-3.jpg'%}" alt="speaker img">
-                                    <div class="mu-single-speakers-info">
-                                        <h3>Ned Stark</h3>
-                                        <p>UI/UX Specialist</p>
-                                        <ul class="mu-single-speakers-social">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End single speaker -->
-
-
-                                <!-- Start single speaker -->
-                                <div class="mu-single-speakers">
-                                    <img src="{%static 'base/events/assets/images/speaker-4.jpg'%}" alt="speaker img">
-                                    <div class="mu-single-speakers-info">
-                                        <h3>Michaela Lehr </h3>
-                                        <p>Digital Marketer</p>
-                                        <ul class="mu-single-speakers-social">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End single speaker -->
-                            </div>
-                        </div>
-                        <!-- End Speakers Content -->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Speakers -->
 
     <!-- Start Venue -->
     <section id="mu-venue">
@@ -517,15 +398,15 @@
 
                 <div class="col-md-6">
                     <div class="mu-venue-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8176744277202!2d-81.47150788457147!3d28.424757900613237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e378ec5a9a9%3A0x2feec9271ed22c5b!2sOrange+County+Convention+Center!5e0!3m2!1sen!2sbd!4v1503833952781" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.5358699645053!2d76.84871217480394!3d23.077471479135347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397ce9ceaaaaaaab%3A0xa224b6b82b421f83!2sVellore%20Institute%20of%20Technology%20-%20VIT%20Bhopal!5e0!3m2!1sen!2sin!4v1681752253243!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="mu-venue-address">
                         <h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
-                        <h3>Orange County Convention Center</h3>
-                        <h4>9800 International Dr, Orlando, FL 32819, USA</h4>
+                        <h3>VIT-Bhopal University</h3>
+                        <h4>Kotri Kalan, Ashta, Near, Indore Road, Bhopal, Madhya Pradesh 466114</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem reiciendis incidunt accusantium porro amet repellendus hic corporis fugiat officiis, sequi iste distinctio possimus dignissimos, veniam quae delectus. Fuga, modi, perferendis!</p>
                     </div>
                 </div>
@@ -534,150 +415,6 @@
         </div>
     </section>
     <!-- End Venue -->
-
-    <!-- Start Pricing  -->
-    <section id="mu-pricing">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mu-pricing-area">
-                        
-                        <div class="mu-title-area">
-                            <h2 class="mu-title">Pricing plans</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-                        </div>
-                        
-                        <div class="mu-pricing-conten">
-                            <div class="row">
-                                
-                                <!-- single price item -->
-                                <div class="col-md-4">
-                                    <div class="mu-single-price">
-
-                                        <div class="mu-single-price-head">
-                                            <span class="mu-currency">$</span>
-                                            <span class="mu-rate">12</span>
-                                            <span class="mu-time">/all days</span>
-                                        </div>
-                                        <h3 class="mu-price-title">BASIC</h3>
-                                        <ul>
-                                            <li>Basic Class Ticket</li>
-                                            <li>Access to all sessions</li>
-                                            <li>Free Breakfast</li>
-                                        </ul>
-                                        <a class="mu-register-btn" href="#"> Register Now</a>
-                                    </div>
-                                </div>
-                                <!-- / single price item -->
-
-                                <!-- single price item -->
-                                <div class="col-md-4">
-                                    <div class="mu-single-price mu-popular-price">
-                                        <span class="mu-price-tag">Popular</span>
-                                        <div class="mu-single-price-head">
-                                            <span class="mu-currency">$</span>
-                                            <span class="mu-rate">22</span>
-                                            <span class="mu-time">/all days</span>
-                                        </div>
-                                        <h3 class="mu-price-title">STANDARD</h3>
-                                        <ul>
-                                            <li>Basic Class Ticket</li>
-                                            <li>Access to all sessions</li>
-                                            <li>Free Breakfast</li>
-                                        </ul>
-                                        <a class="mu-register-btn" href="#"> Register Now</a>
-                                    </div>
-                                </div>
-                                <!-- / single price item -->
-
-                                <!-- single price item -->
-                                <div class="col-md-4">
-                                    <div class="mu-single-price">
-
-                                        <div class="mu-single-price-head">
-                                            <span class="mu-currency">$</span>
-                                            <span class="mu-rate">45</span>
-                                            <span class="mu-time">/all days</span>
-                                        </div>
-                                        <h3 class="mu-price-title">PREMIUM</h3>
-                                        <ul>
-                                            <li>Basic Class Ticket</li>
-                                            <li>Access to all sessions</li>
-                                            <li>Free Breakfast</li>
-                                        </ul>
-                                        <a class="mu-register-btn" href="#"> Register Now</a>
-                                    </div>
-                                </div>
-                                <!-- / single price item -->
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Pricing -->
-
-    <!-- Start Register  -->
-    <section id="mu-register">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mu-register-area">
-
-                        <div class="mu-title-area">
-                            <h2 class="mu-title">Register Form</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-                        </div>
-
-                        <div class="mu-register-content">
-                            <form class="mu-register-form">
-
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">                
-                                            <input type="text" class="form-control" placeholder="Your Full Name" id="name" name="name" required="">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <div class="form-group">                
-                                            <input type="email" class="form-control" placeholder="Enter Your Email" id="email" name="email" required="">
-                                        </div>     
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">                
-                                            <input type="text" class="form-control" placeholder="Your Phone Number" id="telephone" name="telephone" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        
-                                    <div class="form-group"> 
-                                        <select class="form-control" name="ticket" id="ticket">
-                                            <option value="0">Basic ($12)</option>
-                                            <option value="1">Standard ($22)</option>
-                                            <option value="2">Premium ($45)</option>
-                                        </select>
-                                    </div>      
-                                    </div>
-                                </div>
-
-                                <button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
-
-                            </form>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Register -->
 
     <!-- Start FAQ -->
     <section id="mu-faq">

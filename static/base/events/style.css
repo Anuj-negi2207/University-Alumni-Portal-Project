@@ -78,7 +78,7 @@ img {
 }
 
 code {
-	background-color: #ee6e73;
+	background-color: #3f3fdc;
 	border-radius: 2px;
 	color: #fff;
 	padding: 2px 4px;
@@ -97,7 +97,7 @@ pre code {
 }
 
 del{
-	text-decoration-color: #ee6e73;
+	text-decoration-color: #3f3fdc;
 }
 
 kbd {
